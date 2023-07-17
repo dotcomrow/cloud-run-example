@@ -83,5 +83,10 @@ jobs:
           java-version: '17'
           distribution: 'temurin'
 
+    - name: Set up Gradle
+      run: |
+        mkdir .gradle
+        mv gradle.properties .gradle/
+
     - name: "Build and push the image and deploy Cloud Run service"
       run: gradle cloudRunDeploy --stacktrace
