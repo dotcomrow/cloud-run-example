@@ -1,0 +1,8 @@
+runtime: java17
+env_variables:
+  SPRING_PROFILES_ACTIVE: "gcp"
+handlers:
+- url: /.*
+  script: this field is required, but ignored
+
+entrypoint: java -Xmx128m -jar <REPO_NAME>.jar

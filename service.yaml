@@ -1,0 +1,13 @@
+apiVersion: "serving.knative.dev/v1"
+kind: "Service"
+metadata:
+  name: "<PROJECT_NAME>"
+spec:
+  template:
+    spec:
+      containers:
+      - image: "gcr.io/<GCP_PROJECT_ID>/<PROJECT_NAME>"
+        resources:
+          limits:
+            cpu: "1000m"
+            memory: "512Mi"
