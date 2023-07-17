@@ -43,7 +43,7 @@ tasks {
             image = "gcr.io/<GCP_PROJECT_ID>/<REPO_NAME>"
             auth {
                 username = "_json_key"
-                password = file("./google.key").text
+                password = file("google.key").text
             }
         }
     }
