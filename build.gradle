@@ -40,7 +40,7 @@ tasks {
             image = "eclipse-temurin:17-jre"
         }
         to {
-            image = "gcr.io/<GCP_PROJECT_ID>/<PROJECT_NAME>"
+            image = "gcr.io/<GCP_PROJECT_ID>/<REPO_NAME>"
             auth {
                 username = "_json_key"
                 password = file("./google.key").text
