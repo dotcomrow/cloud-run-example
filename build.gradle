@@ -52,7 +52,6 @@ tasks {
 cloudRun {
   region = 'us-east1'                                     // required
   serviceYamlFilePath = "$rootDir/service.yaml"     // optional
-  serviceAccountKeyProperty = 'gcloudServiceAccountKey'   // optional
 }
 
 java {
