@@ -6,7 +6,7 @@ spec:
   template:
     spec:
       containers:
-      - image: "gcr.io/<GCP_PROJECT_ID>/<PROJECT_NAME>"
+      - image: "gcr.io/<GCP_PROJECT_ID>/<REPO_NAME>"
         resources:
           limits:
             cpu: "1000m"
