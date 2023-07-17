@@ -13,7 +13,6 @@ buildscript {
 plugins {
 	id 'org.springframework.boot' version '3.1.1'
 	id 'java'
-    id 'com.google.cloud.tools.appengine' version '2.4.5'
     id 'com.github.johnrengelman.shadow' version '7.1.2'
     id 'com.google.cloud.tools.jib' version '3.1.4'
     id 'org.podval.tools.cloudrun' version '0.3.1'
