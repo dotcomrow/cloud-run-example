@@ -4,6 +4,8 @@ metadata:
   name: "<REPO_NAME>"
 spec:
   template:
+    metadata:
+      name: "<REPO_NAME>"
     spec:
       containers:
       - image: "gcr.io/<GCP_PROJECT_ID>/<REPO_NAME>"
