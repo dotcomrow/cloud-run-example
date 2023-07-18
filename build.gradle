@@ -15,7 +15,7 @@ plugins {
 	id 'java'
     id 'com.github.johnrengelman.shadow' version '7.1.2'
     id 'com.google.cloud.tools.jib' version '3.3.2'
-    id 'org.podval.tools.cloudrun' version '0.3.6'
+    id 'org.podval.tools.cloudrun' version '0.3.7'
 }
 
 repositories { 
